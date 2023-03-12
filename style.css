@@ -48,3 +48,15 @@ h1{
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left,.content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
